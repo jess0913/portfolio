@@ -7,8 +7,8 @@ const logger = require('morgan');
 const Router = require('./routes/index');
 const mail = require('./routes/mail')
 const app = express();
-// const port = process.env.PORT;
-const port = '3000';
+const port = process.env.PORT;
+// const port = '3000';
 // view engine setup
 app.set('view engine', 'ejs');
 
